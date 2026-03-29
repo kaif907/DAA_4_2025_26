@@ -21,3 +21,9 @@
 6.If stops exceed K, ignore that path.
 
 7.Finally return minimum cost if reachable, else -1.
+
+**Time Complexity:** O(K * E)
+ (because we traverse edges up to K levels)
+
+**Space Complexity:** O(N + E)
+ (for graph + queue)
